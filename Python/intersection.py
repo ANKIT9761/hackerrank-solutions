@@ -1,0 +1,6 @@
+n=int(input())
+m=set(input().split())
+a=int(input())
+b=set(input().split())
+m=m.intersection(b)
+print(len(m))
